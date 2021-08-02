@@ -1,0 +1,9 @@
+	puzzle image : https://en.wikipedia.org/wiki/15_puzzle
+
+
+
+export PATH_TO_FX=/Users/iamgroot/project/java/rishonfx/javafx-sdk-16/lib
+
+javac --module-path $PATH_TO_FX --add-modules javafx.controls PuzzleMain.java
+
+java --module-path $PATH_TO_FX --add-modules javafx.controls PuzzleMain
